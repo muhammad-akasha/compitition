@@ -30,6 +30,9 @@
 .button{
     width: fit-content;padding: 10px 40px;background: #f5204b;color: #fff;margin-top: 30px
 }
+.button:hover{
+    background: blue
+}
 .screen{
     width: 400px;height:fit-content;background:#fff;border-radius: 10px;
 }

@@ -1,11 +1,179 @@
 @media (max-width:700px){
+    .email{
+        width: 85%
+    }
+    .screen{
+      width: 300px;margin: 160px auto 0px
+    }
     .flex{
-        flex-wrap: wrap
+        flex-direction: column
+    }
+    .blank{
+        height: 700px
     }
     .content1{
-        flex-wrap: wrap
+     margin: 0 auto  
+    }
+    .con-1{
+        width: 100%;margin-top: 30px
+    }
+    .con-1-img{
+        width: 95%
+    }
+    .con-1-img img{
+        width: 100%
     }
     .con-2{
+        gap: 10px;width: 100%
+    }
+    .box{
+         padding: 10px 10px;
+        width: 100%;
+        height: fit-content;
+    }
+    .cardparent{
+        gap: 15px;margin: 0 auto
+    }
+    .card{
+        margin: 0 auto;
+    }
+    .cityimage{
+        height: fit-content
+    }
+    .cityimage-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .citycon{
+        gap: 15px 
+    }
+    .cityimg{
+        justify-content: center;gap: 15px
+    }
+    .cityimgbox{
+        margin: 0 auto
+    }
+    .ourservice{
+        height:fit-content;
+    }
+    .ourservice-content{
+        margin: 0 auto
+    }
+    .ourcustom>p{
+        width: 100%;
+    }
+    .footer{
+        gap: 20px;width: 100%
+    }
+    .foot1{
+        width: 100%;text-align: start;
+    }
+    .foot2{
+        width: 100%;text-align: start
+    }
+    .foot3{
+        width: 100%;text-align: start
+    }
+    .foot4{
+        width: 100%;text-align: start
+    }
+    .footer :nth-of-type(3) ul{
+        width: 100%
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 2.5em;
+        height: 2.5em
+    }
+}
+@media (min-width:460px) and (max-width:700px){
+    .box{
+        padding: 10px 10px;
+       width: fit-content;
+       height: fit-content;
+   }
+}
+
+@media (min-width:700px) and (max-width:1197px){
+    .email{
+        width: 85%
+    }
+    .screen{
+      width: 300px;margin: 160px auto 0px
+    }
+    .flex{
         flex-direction: column
+    }
+    .blank{
+        height: 700px
+    }
+    .content1{
+     margin: 0 auto  
+    }
+    .con-1{
+        width: 100%;margin-top: 30px
+    }
+    .con-1-img{
+        width: 95%
+    }
+    .con-1-img img{
+        width: 100%
+    }
+    .con-2{
+        gap: 10px;width: 80%
+    }
+    .box{
+         padding: 10px 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .cityimgbox{
+        margin: 0 auto
+    }
+    .cardparent{
+        gap: 15px;margin: 0 auto
+    }
+    .card{
+        margin: 0 auto;
+    }
+    .cityimage{
+        height: fit-content
+    }
+    .cityimage-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .citycon{
+        gap: 15px 
+    }
+    .cityimg{
+        justify-content: center;gap: 15px
+    }
+    .ourservice{
+        height:fit-content;
+    }
+    .ourservice-content{
+        margin: 0 auto
+    }
+    .ourcustom>p{
+        width: 100%;
+    }
+    .footer{
+        gap: 20px
+    }
+    .foot1{
+        width: 400px;text-align: start;
+    }
+    .foot2{
+        width:400px;text-align: start
+    }
+    .foot3{
+        width: 400px;text-align: start
+    }
+    .foot4{
+        width: 400px;text-align: start
+    }
+    .footer :nth-of-type(3) ul{
+        width: fit-content
     }
 }
